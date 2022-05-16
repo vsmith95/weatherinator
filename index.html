@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    
+    <title>Forecastinator</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="header-title">
+            Forecastinator
+        </h1>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input id="searchBar" placeholder="Search for a City" />
+        <button id="searchBtn" class="search-Btn">Search</button>
+    </div>
+    <!-- Daily Weather Container -->
+    <section id="currentForecast" class="current-forecast">
+        <h2 id="city" class="important-info city">Windham</h2>
+        <p id="currentDate" class="important-info date">May 11th, 1995</p>
+        
+        <!-- Current Weather -->
+        <div class="current-info">
+            <p id="currentTemp" class="weather-info">Temp: </p>
+            <p id="currentHumidity" class="weather-info">Wind Speed: </p>
+            <p id="currentWind" class="weather-info">Humidity: </p>
+            <p id="UV" class="weather-info UV">UV Index: </p>
+        </div>
+    </section>
+
+    <!-- 5-day Forcast Section -->
+    <div class=" fivedayhead">
+        <h3 class="important-info">5 Day Forecast</h3>
+    </div>
+
+    <section id="5dayCast" class="five-day-container">
+        <!-- Day 1 of 5 day -->
+        <div id="forecast1" class="card">
+            <h4 id="day1" class="important-info"></h4>
+
+            <p id="day1Temp" class="weather-info">Temp: </p>
+            <p id="day1Humidity" class="weather-info">Wind Speed: </p>
+            <p id="day1Wind" class="weather-info">Humidity: </p>
+        </div>
+
+        <!-- Day 2 of 5 day -->
+        <div id="forecast2" class="card">
+            <h4 id="day2" class="important-info"></h4>
+
+            <p id="day2Temp" class="weather-info">Temp: </p>
+            <p id="day2Humidity" class="weather-info">Wind Speed: </p>
+            <p id="day2Wind" class="weather-info">Humidity: </p>
+        </div>
+
+        <!-- Day 3 of 5 day -->
+        <div id="forecast3" class="card">
+            <h4 id="day3" class="important-info"></h4>
+
+            <p id="day3Temp" class="weather-info">Temp: </p>
+            <p id="day3Humidity" class="weather-info">Wind Speed: </p>
+            <p id="day3Wind" class="weather-info">Humidity: </p>
+        </div>
+
+        <!-- Day 4 of 5 day -->
+        <div id="forecast4" class="card">
+            <h4 id="day4" class="important-info"></h4>
+
+            <p id="day4Temp" class="weather-info">Temp: </p>
+            <p id="day4Humidity" class="weather-info">Wind Speed: </p>
+            <p id="day4Wind" class="weather-info">Humidity: </p>
+        </div>
+
+        <!-- Day 5 of 5 day -->
+        <div id="forecast5" class="card">
+            <h4 id="day5" class="important-info"></h4>
+
+            <p id="day5Temp" class="weather-info">Temp: </p>
+            <p id="day5Humidity" class="weather-info">Wind Speed: </p>
+            <p id="day5Wind" class="weather-info">Humidity: </p>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

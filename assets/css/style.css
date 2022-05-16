@@ -1,0 +1,109 @@
+/* Globals */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    ---primary-color: #6f2dbd;
+    ---secondary-color: #b298dc;
+    ---tertiary-color: #b9faf8; 
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: var(---tertiary-color);
+    margin: auto;
+    padding: 10px;
+}
+
+.header-title {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+/* Search Bar Section
+ */
+.search-container {
+    justify-content: space-between;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 25px;
+    padding: 3px;
+}
+
+#searchBar {
+    padding: 5px;
+    margin: 4px;
+}
+
+.search-Btn {
+    padding: 2px;
+    margin: 4px;
+
+}
+
+/* Daily Weather Container */
+
+.important-info {
+    display: flex;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.city {
+    font-size: larger;
+}
+
+.date {
+    color: grey;
+    font-style: italic;
+}
+
+.current-forecast {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    border: 3px solid black;
+    width: 50vw;
+    height: 30vw;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.current-info {
+    align-self: center;
+    margin: auto;
+}
+
+.five-day-container {
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+
+}
+
+.fivedayhead {
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(---secondary-color);
+    border: 2px solid black;
+    box-shadow: 0 10px 20px #0006;
+}
